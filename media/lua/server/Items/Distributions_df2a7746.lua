@@ -4,7 +4,14 @@ local distributionTable =
 {
 	all = 
 	{
-		restaurantdisplay = 
+		bin = 
+		{
+			items = 
+			{
+				"TurkeySlurpy.Slurpy",1,
+			},
+		},
+		campfire = 
 		{
 			items = 
 			{
@@ -16,13 +23,13 @@ local distributionTable =
 			{
 			},
 		},
-		campfire = 
+		clothingdryer = 
 		{
 			items = 
 			{
 			},
 		},
-		clothingdryer = 
+		clothingdryerbasic = 
 		{
 			items = 
 			{
@@ -34,39 +41,19 @@ local distributionTable =
 			{
 			},
 		},
-		freezer = 
-		{
-			items = 
-			{
-				"TurkeySlurpy.Turkey",2,
-				"TurkeySlurpy.Slurpy",1,
-			},
-		},
-		dishescabinet = 
-		{
-			items = 
-			{
-			},
-		},
-		dresser = 
-		{
-			items = 
-			{
-			},
-		},
-		postbox = 
-		{
-			items = 
-			{
-			},
-		},
 		corn = 
 		{
 			items = 
 			{
 			},
 		},
-		logs = 
+		counter = 
+		{
+			items = 
+			{
+			},
+		},
+		crate = 
 		{
 			items = 
 			{
@@ -102,7 +89,7 @@ local distributionTable =
 			{
 			},
 		},
-		inventorymale = 
+		grocerstand = 
 		{
 			items = 
 			{
@@ -114,25 +101,25 @@ local distributionTable =
 			{
 			},
 		},
-		shelvesmag = 
+		inventorymale = 
 		{
 			items = 
 			{
 			},
 		},
-		desk = 
+		logs = 
 		{
 			items = 
 			{
 			},
 		},
-		filingcabinet = 
+		medicine = 
 		{
 			items = 
 			{
 			},
 		},
-		stove = 
+		metal_shelves = 
 		{
 			items = 
 			{
@@ -145,19 +132,13 @@ local distributionTable =
 				"TurkeySlurpy.Slurpy",1,
 			},
 		},
-		medicine = 
+		postbox = 
 		{
 			items = 
 			{
 			},
 		},
-		crate = 
-		{
-			items = 
-			{
-			},
-		},
-		counter = 
+		restaurantdisplay = 
 		{
 			items = 
 			{
@@ -169,16 +150,7 @@ local distributionTable =
 			{
 			},
 		},
-		fridge = 
-		{
-			items = 
-			{
-				"TurkeySlurpy.Turkey",3,
-				"TurkeySlurpy.Turkey",3,
-				"TurkeySlurpy.Slurpy",1,
-			},
-		},
-		vendingsnack = 
+		stove = 
 		{
 			items = 
 			{
@@ -190,45 +162,16 @@ local distributionTable =
 			{
 			},
 		},
-		bin = 
-		{
-			items = 
-			{
-				"TurkeySlurpy.Slurpy",1,
-			},
-		},
-		officedrawers = 
+		vendingsnack = 
 		{
 			items = 
 			{
 			},
 		},
-		metal_shelves = 
+		Outfit_Generic99 = 
 		{
 			items = 
 			{
-			},
-		},
-		shelves = 
-		{
-			items = 
-			{
-			},
-		},
-		other = 
-		{
-			items = 
-			{
-			},
-		},
-	},
-	spiffosstorage = 
-	{
-		all = 
-		{
-			items = 
-			{
-				"TurkeySlurpy.Turkey",0,
 			},
 		},
 	},
