@@ -1,0 +1,70 @@
+module TurkeySlurpy
+{
+	imports
+	{
+		Base,
+	}
+	item Turkey
+	{
+		HungerChange 		= -90,
+		Weight 		= 3.0,
+		Type 		= Food,
+		IsCookable 		= TRUE,
+		DangerousUncooked 		= TRUE,
+		DaysTotallyRotten 		= 7,
+		MinutesToBurn 		= 100,
+		MinutesToCook 		= 80,
+		DisplayName 		= Turkey,
+		Icon 		= Turkey,
+		DaysFresh 		= 3,
+		EvolvedRecipe 		= Stew:20;Stir fry Griddle Pan:20;Stir fry:20;Burger:20;Roasted Vegetables:20;PastaPot:20;PastaPan:20;RicePot:20;RicePan:20,
+		FoodType 		= Meat,
+		Carbohydrates 		= 0,
+		Proteins 		= 21.41,
+		Lipids 		= 11.52,
+		Calories 		= 175,
+		BadInMicrowave 		= TRUE,
+		BadCold 		= TRUE,
+		GoodHot 		= TRUE,
+	}
+	item Slurpy
+	{
+		HungerChange 		= -110,
+		Weight 		= 3.0,
+		Type 		= Food,
+		IsCookable 		= FALSE,
+		DangerousUncooked 		= FALSE,
+		DaysTotallyRotten 		= 2,
+		MinutesToBurn 		= 15,
+		MinutesToCook 		= 5,
+		DisplayName 		= Turkey Slurpy,
+		Icon 		= Slurpy,
+		DaysFresh 		= 3,
+		FoodType 		= Meat,
+		Carbohydrates 		= 0,
+		Proteins 		= 21.41,
+		Calories 		= 400,
+		BadInMicrowave 		= TRUE,
+		BadCold 		= FALSE,
+		GoodHot 		= FALSE,
+		ThirstChange 		= -20,
+		AlwaysWelcomeGift 		= TRUE,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottle,
+		ReplaceOnUse 		= Mugl,
+		StaticModel 		= Mug,
+		EatType 		= Mug,
+		UnhappyChange 		= 30,
+	}
+	recipe Create Turkey Slurpy
+	{
+		Mugl,
+		IcecreamMelted,
+		Turkey,
+		Result 		: Slurpy,
+		Time 		: 80,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking25,
+		Tooltip 		: This is definitely edible.,
+	}
+}
